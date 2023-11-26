@@ -9,6 +9,8 @@ import Login from './components/Registering/Login';
 import SignUp from './components/Registering/SignUp';
 import Home from './components/HomePage/Home';
 import Transact from './components/TransactionHistory/Transact';
+import Main from './components/APINews/Main';
+import Graphs from './components/Graphs/Graphs';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/Sign" element={<SignUp />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Transact" element={<Transact />} />
+          <Route path="/Main" element={<Main />} />
+          <Route path="/Graphs" element={<Graphs />} />
         </Routes>
       </div>
     </Router>
